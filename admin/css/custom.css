@@ -1,0 +1,112 @@
+#login-form label{
+    color: #bbb;
+}
+
+
+.posts_table td {
+		}
+
+.posts_table img, .photos_table img {
+	max-height:100px;
+	max-width:200px;
+}
+
+.admin-post-thumbnail {
+	
+}
+
+.action_links {
+	display:inline-block;
+        margin-top: 8px;
+}
+
+
+.action_links>a {
+	margin-bottom:2px;
+}
+
+.user-thumbnail {
+	width:200px;
+}
+
+.user-thumbnail img {
+	height:64px;
+	width:auto;
+
+
+}
+
+.comment-img {
+    width: 64px;
+    height: 64px;
+}
+
+
+
+/* Modal Photo library */
+
+.modal-dialog {
+    width: 90% !important;
+}
+
+
+.modal-body {
+    overflow: auto;
+    height: 500px !important;
+    min-height: 300px !important;
+}
+
+
+.modal_thumbnails, .modal_thumbnails_post {
+    width: 150px;
+    height: 100px !important;
+}
+
+
+#set_item_image {
+    margin: 10px;
+}
+
+
+
+#modal_sidebar {
+    position: fixed !important;
+}
+/* !! end Modal Photo library */
+
+
+
+/******** Dropzone custom styles *******/
+.dropzone {
+        border: 3px dashed #0087f7;
+        border-radius: 5px;
+        background: white;
+}
+
+
+/*
+.square {
+    width: 20vw;
+    height: 20vw;
+}*/
+
+
+
+/*.custom-textarea {
+    position:relative;
+    border: 1px solid #ddd;
+}
+.custom-textarea button {
+    position:absolute;
+    top:-30px;
+    right:3px;
+    width: 60px;
+}
+.custom-textarea textarea {
+    z-index: 10;
+    position:relative;
+    border:none;
+    height: 95px;
+    resize: none;
+    outline: none;  //add this to stop highlight on focus 
+}*/

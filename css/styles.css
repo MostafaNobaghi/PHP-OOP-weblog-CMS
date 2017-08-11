@@ -1,0 +1,44 @@
+
+.admin-post-thumbnail {  
+   width: 200px;
+}
+
+.index-post {
+    height: 225px !important;
+    position: relative;
+}
+
+.index-post img {
+    max-height: 100% !important;
+    /*height: 100% !important;*/
+    width: auto;
+
+/*position: absolute;
+line-height: 225px;*/
+}
+
+
+
+
+
+.side_style {  
+    background: #555;
+    padding: 10px;
+    color: white;  
+}
+
+.image {
+    max-height: 620px;
+}
+
+.image img {
+    max-height: 600px;
+}
+
+
+.post-description {
+    height: 100px;
+    overflow: hidden;
+}
+
+
