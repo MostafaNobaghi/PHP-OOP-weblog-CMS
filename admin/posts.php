@@ -78,7 +78,7 @@ if(isset($_GET['cat_id'])){
                                                     <a class="btn btn-info" href="comments.php?id=<?php echo $post->id; ?>">Comments (<small><?php echo count($post_comments); ?>)</small></a>
                                                 </div>
                                             </td>
-                                            <td> <?php  $post->print_categories(); ?></td>
+                                            <td> <?php  $post->print_categories('posts.php'); ?></td>
                                             
                                             
                                          <tr>

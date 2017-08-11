@@ -67,6 +67,11 @@ if($post){$categories = $post->extract_categories();}
 
 ?>
 <?php include_once "includes/navigation.php"; ?>
+<pre>
+    <?php
+    print_r($categories);
+    ?>
+</pre>
 
 
 

@@ -105,10 +105,10 @@ class Post extends Db_object {
     
     
     
-    public function print_categories() {
+    public function print_categories($base_url) {
         $categories = $this->extract_categories();
         foreach ($categories as $category){
-        echo "<a class='label label-info' href=''>  {$category['category_title']} </a>";
+        echo "<a href='{$base_url}?cat_id={$category['category_id']}' class='label label-info' href=''>  {$category['category_title']} </a>";
         }
     }
     
